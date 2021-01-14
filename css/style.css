@@ -50,6 +50,9 @@
 }
 .bg-color{
     background: linear-gradient(35deg,rgba(70, 228, 194, 0.404),rgba(62, 173, 247, 0.562));
-    text-shadow: black 1px 1px 2px ;
     font-size: 20px;
+}
+.title-shadow{
+    text-shadow: black 1px 1px 2px ;
+    letter-spacing: 2px;
 }
