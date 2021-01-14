@@ -1,15 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin Fashion</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1>hello world</h1>
-
-    <script src="bootstrap js/bootstrap.bundle.min.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Penguin Fashion</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/d086cba1c1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header section -->
+        <header class="header-bg">
+            <section class="container">
+                <!-- navbar design -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid d-flex">
+                        <img class="navbar-brand" src="logo/nav-logo.png"
+                            width="220px" height="75px">
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarText"
+                            aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse
+                            justify-content-end" id="navbarText">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#product">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#aboutUs">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contactUs">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- wlcome message -->
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-6 mt-4 mb-4">
+                        <h1 class="display-4 fw-bold text-uppercase">
+                            <span class="text-warning">Be the Penguins</span>
+                            <br> of Winter
+                        </h1>
+                        <p class="lead mt-3">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                        </p>
+                        <button type="button" class="btn btn-color px-3 py-2 mt-3">
+                            <i class="fa fa-shopping-cart px-1"
+                                aria-hidden="true"></i> BUY NOW
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img class="img-fluid" src="image/person/person.png" alt="person image">
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="container">
+            <!-- woman product section -->
+            <section class="woman-sec mt-5 mb-5" id="product">
+                <h1 class="text-uppercase text-center text-md-start mb-3">woman jacket</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card shadow h-100 p-3 card-radius">
+                            <img src="image/product/woman-jacket1.png" class="card-img-top img-size p-2" alt="woman jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Yellow Coat Jacket</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow h-100 p-3 card-radius">
+                            <img src="image/product/woman-jacket2.png" class="card-img-top img-size p-4" alt="woman jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Ladies Jacket</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow h-100 p-3 card-radius">
+                            <img src="image/product/woman-jacket3.png" class="card-img-top img-size p-2" alt="woman jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Woman Leather Jacket</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- man product section -->
+            <section class="woman-sec mt-5 mb-5">
+                <h1 class="text-uppercase text-center text-md-start mb-3">Man Jacket</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card shadow h-100 p-3 card-radius">
+                            <img src="image/product/man-jacket1.png" class="card-img-top img-size p-4" alt="man jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Snowboard Jacket Mens</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow h-100 p-3 card-radius">
+                            <img src="image/product/man-jacket2.png" class="card-img-top img-size p-4" alt="man jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Man Leather Jackets</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow p-3 card-radius">
+                            <img src="image/product/man-jacket3.png" class="card-img-top img-size p-4" alt="man jacket image">
+                            <div class="card-body">
+                                <h5 class="card-title">Man Casual Jackets</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between card-footer-bg">
+                                <h4 class="text-warning fw-bold">$234</h4>
+                                <button type="button" class="btn btn-color px-3 py-2">
+                                    <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i> BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section -->
+            <section id="aboutUs">
+                <div class="row mt-5 mb-5 d-flex align-items-center">
+                    <div class="col-12 col-md-6 order-1 order-md-0 mt-5">
+                        <div class="card mb-5 shadow card-radius" style="max-width: 540px;">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-4 d-flex justify-content-center">
+                                    <img class="img-fluid p-3" src="logo/icon1.png" alt="icon image">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-start">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Find the Perfect Fit</h5>
+                                        <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 shadow card-radius" style="max-width: 540px;">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-4 d-flex justify-content-center">
+                                    <img class="img-fluid p-3" src="logo/icon2.png" alt="icon image">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-start">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Free Exchanges</h5>
+                                        <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5 shadow card-radius" style="max-width: 540px;">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-md-4 d-flex justify-content-center">
+                                    <img class="img-fluid p-3" src="logo/icon3.png" alt="icon image">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-start">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Contact Our Seller</h5>
+                                        <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 order-0 order-md-1">
+                        <img class="img-fluid" src="logo/image1.png" alt="art image">
+                    </div>
+                </div>
+            </section>
+            <!-- contact us section -->
+            <section class="contact-bg mb-5" id="contactUs">
+                <h1 class="text-center text-uppercase mb-5">contact us</h1>
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-6">
+                        <form>
+                            <label class="label-design" for="name">Name: </label>
+                            <input class="input-design" type="text" name="text" id="name" placeholder="Enter Your Name">
+                            <br>
+                            <label class="label-design" for="email">Email: </label>
+                            <input class="input-design" type="email" name="email" id="email" placeholder="name@example.com">
+                            <div class="form-floating mt-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:100px"></textarea>
+                                <label for="floatingTextarea">Write Your Message...</label>
+                            </div>
+                            <button type="button" class="btn btn-outline-dark mt-3 mb-4">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row d-flex align-items-center mb-3 text-white p-3 rounded-3 bg-color">
+                            <div class="col-12 col-md-3 text-center">
+                              <i class="fas fa-phone-alt" style="color:rgb(0, 255, 149);font-size:45px"></i>
+                            </div>
+                            <div class="col-12 col-md-8 text-center">
+                                <h4>Phone</h4>
+                                <p class="text-muted">+880123456789</p>
+                            </div>
+                          </div>
+                            <div class="row d-flex align-items-center mb-3 text-white p-3 rounded-3 bg-color">
+                              <div class="col-12 col-md-3 text-center">
+                                <i class="fas fa-envelope" style="color:rgb(241, 148, 8);font-size:45px"></i>
+                              </div>
+                              <div class="col-12 col-md-8 text-center">
+                                  <h4>Email</h4>
+                                  <p class="text-muted">penguin@fashion.com</p>
+                              </div>
+                            </div>
+                            <div class="row d-flex align-items-center mb-3 text-white p-3 rounded-3 bg-color">
+                                <div class="col-12 col-md-3 text-center">
+                                  <i class="fas fa-map-marked-alt" style="color:rgb(0, 162, 255);font-size:45px"></i>
+                                </div>
+                                <div class="col-12 col-md-8 text-center">
+                                    <h4>Address</h4>
+                                    <p class="text-muted">Bangladesh,Chittagong.</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer section -->
+        <footer class="text-center text-muted mb-4">
+            <span>&copy; 2021 Penguin Fashion Limited. All rights reserved.</span>
+        </footer>
+        <script src="bootstrap js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
